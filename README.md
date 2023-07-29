@@ -1,6 +1,6 @@
 # Preentrega3-Fernandez Alejandro - CODERHOUSE
 
-Aplicación que contiene 3 class models // CURSOS, PROFESORES y ESTUDIANTES de una academia. <br>
+Aplicación WEB Django con patrón MVT que contiene 3 class models // CURSOS, PROFESORES y ESTUDIANTES de una academia. <br>
 . Se utilizó un template de boostrap con menú tipo hamburguesas en la parte superior derecha.<br>
 
 . Se crea y de adapta un form de busqueda a la pagina pagina principal (base.html) que busca los nombres de cursos.<br>
