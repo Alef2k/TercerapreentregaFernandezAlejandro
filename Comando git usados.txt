@@ -34,6 +34,7 @@ git clone https://github.com/tu-nombre-de-usuario/nombre-del-repositorio.git
 
 - verificar la rama
 git status
+<<<<<<< HEAD
 ----------------------
 - Fusionar RAMAS, antes asegurate de cambiar de rama:
 git checkout master
@@ -49,4 +50,6 @@ git merge developer
 
 
 
+=======
+>>>>>>> developer
 
