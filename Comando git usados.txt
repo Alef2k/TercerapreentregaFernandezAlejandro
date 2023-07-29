@@ -10,17 +10,24 @@ git push -u origin master
 - crear ramas:
 git checkout -b nombre-de-la-rama
 
-- ver en que rama estas: (*)
+- ver en que BRANCH estas: (*)
 git branch
 
-- cambiar de rama
+- cambiar de BRANCH
 git checkout nombre-de-la-rama
 
-
-- cargar los archivos a la rama (ahora al Staging, preparacion)
+- copiar a la rama
+1- cargar los archivos a la BRANCH (ahora al Staging, preparacion)
 git add .
-- luego confirmacion (commit)
+2 - luego confirmacion (commit)
 git commit -m "Descripción de los cambios realizados"
+3 - Subir los cambios
+git push origin nombre-de-la-rama
+
+
+- fusionar ramas
+Paso 4: Crear una solicitud de extracción (Pull Request) (opcional)
+
 
 
 

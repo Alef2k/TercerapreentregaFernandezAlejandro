@@ -51,12 +51,12 @@ def buscarComision(request):
     return render(request, "aplicacion/buscarComision.html")
 
 def buscar2(request):
-    if request.GET['comision']:
-        comision = request.GET['comision']
-        cursos = Curso.objects.filter(comision__icontains=comision)
+    if request.GET['nombre']:
+        comision = request.GET['nombre']
+        cursos = Curso.objects.filter(nombre__icontains=comision)
         return render(request, 
                       "aplicacion/resultadosComision.html", 
-                      {"comision": comision, "cursos":cursos})
+                      {"nombre": comision, "cursos":cursos})
     return HttpResponse("No se ingresaron datos para buscar!")
 
 
@@ -129,3 +129,10 @@ class EstudianteUpdate(UpdateView):
 class EstudianteDelete(DeleteView):
     model = Estudiante
     success_url = reverse_lazy('estudiantes')    
+
+
+
+
+
+
+ 

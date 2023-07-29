@@ -1,6 +1,7 @@
 from django.urls import path, include
 from .views import *
 
+
 urlpatterns = [
     path('', index, name="inicio"),
 
@@ -12,6 +13,7 @@ urlpatterns = [
 
     path('buscar_comision/', buscarComision, name="buscar_comision"),
     path('buscar2/', buscar2, name="buscar2"),
+
 #_______________________
     path('profesores/', profesores, name="profesores"),
     path('update_profesor/<id_profesor>/', updateProfesor, name="update_profesor"),

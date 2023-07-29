@@ -10831,8 +10831,8 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -10958,7 +10958,7 @@ html {
 }
 
 .callout {
-  padding: 15rem 0;
+  padding: 5rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -11026,7 +11026,7 @@ footer.footer .social-link:hover {
 }
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+   height: 50vh; */
   }
   .masthead h1, .masthead .h1 {
     font-size: 5.5rem;
@@ -11107,4 +11107,25 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos generales para los campos del formulario */
+form input[type="text"],
+form input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para el botón de enviar */
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilos adicionales para resaltar el botón al pasar el mouse */
+form input[type="submit"]:hover {
+    background-color: #0056b3;
 }
