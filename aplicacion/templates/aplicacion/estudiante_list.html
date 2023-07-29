@@ -10,7 +10,7 @@
             <a
             href="{% url 'create_estudiante' %}"
             class="btn btn-primary btn-sm"
-            ><i class="fa fa-plus fa-lg" title="New Record"> </i>
+            ><i class="fa fa-plus fa-lg" title="Agregar"> </i>
             </a>
         </td>
     </tr>
@@ -39,19 +39,19 @@
         href="{% url 'detail_estudiante' p.id %}"
         class="btn btn-info"
         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"
-        ><i class="fa fa-search fa-sm" title="View Record"></i>
+        ><i class="fa fa-search fa-sm" title="Ampliar info"></i>
         </a>
         <a
           href="{% url 'update_estudiante' p.id %}"
           class="btn btn-primary"
           style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"
-          ><i class="fa fa-edit fa-sm" title="Edit Record"></i>
+          ><i class="fa fa-edit fa-sm" title="Editar"></i>
         </a>
         <a
           href="{% url 'delete_estudiante' p.id %}"
           class="btn btn-danger"
           style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"
-          ><i class="fa fa-trash fa-sm" title="Delete Record"></i>
+          ><i class="fa fa-trash fa-sm" title="Borrar"></i>
         </a>
       </td>
     </tr>

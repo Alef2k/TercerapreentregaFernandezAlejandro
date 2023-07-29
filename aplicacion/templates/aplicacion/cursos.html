@@ -12,6 +12,18 @@
 {% endblock cabecera %}
     
 {% block contenido %}
+<table>
+    <tr>
+        <td width="200"><h2>Cursos</h2></td>
+        <td>
+            <a
+            href="{% url 'curso_form2' %}"
+            class="btn btn-primary btn-sm"
+            ><i class="fa fa-plus fa-lg" title="Agregar"> </i>
+            </a>
+        </td>
+    </tr>
+</table>
 <table class="table">
     <thead>
         <tr>
