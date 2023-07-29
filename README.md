@@ -1,7 +1,7 @@
 # Preentrega3-Fernandez Alejandro - CODERHOUSE
 
-Aplicación que contiene 3 class models // CURSOS, PROFESORES y ESTUDIANTES de una academia. 
-1 Form de busqueda por nombre curso (en el Head )
+Aplicación que contiene 3 class models // CURSOS, PROFESORES y ESTUDIANTES de una academia. <br>
+1 Form de busqueda por nombre curso (en el Head )<br>
 Formularios para insertar, modificar o borrar datos (CRUD).
 
 ## Modo USO
