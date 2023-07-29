@@ -29,9 +29,9 @@ login: 12345
 
 > `git clone https://github.com/Alef2k/TercerapreentregaFernandezAlejandro.git`
 
-2. o descomprimir el zip **TercerapreentregaFernandezAlejandro-developer.zip**
+o descomprimir el zip **TercerapreentregaFernandezAlejandro-developer.zip**
 
-3. En la direccion de la carpeta donde esta descomprimido el proyecto escribir `cmd` para abrir la consola y luego desde la `code .` para abrir el VScode.
+2. En la direccion de la carpeta donde esta descomprimido el proyecto escribir `cmd` para abrir la consola y luego desde la `code .` para abrir el VScode.
 
 3. Abierto el Visual Studio Code 
 escribir en la terminal 
