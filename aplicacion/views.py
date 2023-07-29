@@ -18,8 +18,6 @@ def index(request):
 def estudiantes(request):
     return render(request, "aplicacion/estudiantes.html")
 
-def entregables(request):
-    return render(request, "aplicacion/entregables.html")
 
 def cursos(request):
     ctx = {"cursos": Curso.objects.all() }

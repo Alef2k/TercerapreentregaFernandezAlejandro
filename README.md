@@ -1,14 +1,25 @@
 # Preentrega3-Fernandez Alejandro - CODERHOUSE
 
-Aplicación que permite ver los CURSOS y PROFESORES de una academia. 
+Aplicación que contiene 3 class models // CURSOS, PROFESORES y ESTUDIANTES de una academia. 
+1 Form de busqueda por nombre curso (en el Head )
+Formularios para insertar, modificar o borrar datos (CRUD).
 
-## CONSIDERACIONES IMPORTANTES
+## Modo USO
+- AGREGAR CURSOS: agregar de la siguiente manera:
+> aplicacion/curso_form2/
 
-El sistema permite agregar CURSOS, PROFESORES, ESTUDIANTES y un panel de administración. 
+- AGREGAR PROFESORES: 
+> aplicacion/profesores/
 
-- Para agregar Matería tiene que existir al menos un Profesor
+- AGREGAR ESTUDIANTES:
+Iden a PROFESORES pero con opción "ver su perfil (View Record)"
+> aplicacion/estudiantes/
 
-- Para Agregar Notas, debe exitir Materias y Alumnos en la base de datos
+## Administración de Django
+> localhost:8000/admin
+user: admin
+login: 12345
+
 
 ## CONFIGURACIÓN
 
@@ -21,9 +32,7 @@ El sistema permite agregar CURSOS, PROFESORES, ESTUDIANTES y un panel de adminis
 3. 
 
 
-4. Activar el entorno virtual
 
-> En Windows ejecuta `.\venv\Scripts\activate`
 
 
 6. Ingresa en la carpeta project y ejecuta: 
@@ -36,9 +45,7 @@ El sistema permite agregar CURSOS, PROFESORES, ESTUDIANTES y un panel de adminis
 > `http:\\localhost:8000/aplicacion`
 
 ## BASE DE DATOS
+Base de datos de 3 tablas 
 
-Base de datos de 4 tablas 
-
-![Database Model!](project/apps/GradeApp/static/GradeApp/assets/database.png "Grade App Database")
 
 
