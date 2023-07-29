@@ -1,0 +1,29 @@
+
+
+git init
+git add *
+git commit -m "Tercera preentrega"
+git remote add origin https://github.com/Alef2k/TercerapreentregaFernandezAlejandro.git
+git branch -m master
+git push -u origin master
+
+- crear ramas:
+git checkout -b nombre-de-la-rama
+
+- ver en que rama estas: (*)
+git branch
+
+- cambiar de rama
+git checkout nombre-de-la-rama
+
+
+- cargar los archivos a la rama (ahora al Staging, preparacion)
+git add .
+- luego confirmacion (commit)
+git commit -m "Descripción de los cambios realizados"
+
+
+
+- clonar
+git clone https://github.com/tu-nombre-de-usuario/nombre-del-repositorio.git
+
