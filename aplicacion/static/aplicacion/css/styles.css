@@ -11129,3 +11129,14 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+.cursos-table {
+  width: 100%;
+
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: center;
+}

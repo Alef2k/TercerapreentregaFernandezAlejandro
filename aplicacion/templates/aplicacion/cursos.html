@@ -12,36 +12,34 @@
 {% endblock cabecera %}
     
 {% block contenido %}
-<table>
-    <tr>
-        <td width="200"><h2>Cursos</h2></td>
+<div class="table-container">
+    <table class="table">
+      <tr>
+        <td><h2>Cursos</h2></td>
         <td>
-            <a
-            href="{% url 'curso_form2' %}"
-            class="btn btn-primary btn-sm"
-            ><i class="fa fa-plus fa-lg" title="Agregar"> </i>
+            <a href="{% url 'curso_form2' %}" class="btn btn-primary btn-sm">
+              <i class="fa fa-plus fa-lg" title="Agregar"></i>
             </a>
         </td>
-    </tr>
-</table>
-<table class="table">
-    <thead>
+      </tr>
+    </table>
+    <table class="table cursos-table">
+      <thead>
         <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Comision</th>
+          <th>Nombre</th>
+          <th>Comision</th>
         </tr>
-    </thead>
-    <tbody>
-    {% for curso in cursos %}
-    <tr>
-        <td>{{ curso.id }}</td>
-        <td>{{ curso.nombre }}</td>
-        <td>{{ curso.comision }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-</table>
+      </thead>
+      <tbody>
+        {% for curso in cursos %}
+        <tr>
+          <td>{{ curso.nombre }}</td>
+          <td>{{ curso.comision }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 {% endblock contenido %}
 
 
