@@ -40,7 +40,8 @@ escribir en la terminal
 ***En Mac cambiar python por python3***
 
 4. Ingresa en el Browser de tu preferencia y ingresa a la siguiente dirección: 
-> `http:\\localhost:8000/aplicacion`
+> `http:\\localhost:8000`
+
 
 Listo!!! ya tenemos funcionando nuestra App.
 
